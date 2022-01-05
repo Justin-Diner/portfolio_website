@@ -11300,6 +11300,7 @@ textarea.form-control-lg {
 .about {
   position: relative;
   padding: 2rem 0;
+  scroll-margin-top: 50px;
 }
 .about__content {
   padding: 1rem;
