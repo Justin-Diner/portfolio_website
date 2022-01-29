@@ -43,7 +43,7 @@
 				<a class="nav-link" href="#contact">Contact</a>
 			  </li>
 			</ul>
-				<button type="button" class="rounded-pill btn-rounded">JustIntoCode@gmail.com
+				<button onclick="location.href='#contact'" type="button" class="rounded-pill btn-rounded" >JustIntoCode@gmail.com
 				<span>
 					<i class="fas fa-envelope"></i>
 				</span>
@@ -62,7 +62,7 @@
 					<span class="display-2--intro">Hi, I'm Justin!</span>
 					<span class="display-2--description lh-base">Welcome to my Software Development Portfolio. <br> All projects, including this page, are coded by me from scratch. </span>
 				</h1>
-					<button type="button" class="rounded-pill btn-rounded">Get in Touch
+					<button type="button" class="rounded-pill btn-rounded" onclick="location.href='#contact'">Get in Touch
 						<span>
 							<i class="fas fa-arrow-right"></i>
 						</span>
@@ -295,16 +295,16 @@
 		  </div>
 		</div>
 		<div class="col-lg-4 col-md-6">
-		  <div class="portfolio-box shadow">
-			<img src="images/portfolio/target.PNG" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
-			<div class="portfolio-info">
-			  <div class="caption">
-				<h4>Target</h4>
-				<p>E-Commerce</p>
+			<div class="portfolio-box shadow">
+			  <img src="images/portfolio/target.PNG" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
+			  <div class="portfolio-info">
+				<div class="caption">
+				  <h4>Target</h4>
+				  <p>E-Commerce</p>
+				</div>
 			  </div>
 			</div>
 		  </div>
-		</div>
 	  </div>
 	</div>
 </section>
@@ -576,18 +576,18 @@
 			<div class="col-12 col-lg-6 bg-white shadow p-3">
 				<div class="form w-100 pb-2">
 					<h4 class="display-3--title mb-5">It Only Takes One Step</h4>
-					<form action="#" class="row">
+					<form action="https://formsubmit.co/Justintocode@gmail.com" method="POST" class="row">
 						<div class="col-lg-6 col-md-6 mb-3"><input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
 						</div>
 						<div class="col-lg-6 col-md-6 mb-3"><input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
 						</div>
-						<div class="col-lg-12 mb-3"><input type="email" placeholder="Email address" id="inputEmail" class="shadow form-control form-control-lg">
+						<div class="col-lg-12 mb-3"><input type="email" placeholder="Email address" id="inputEmail" class="shadow form-control form-control-lg" required>
 						</div>
 						<div class="col-lg-12 mb-3">
-						<textarea name="message" placeholder="Message" cols="30" rows="8" class="shadow form-control form-control-lg"></textarea>
+						<textarea name="message" placeholder="Message" cols="30" rows="8" class="shadow form-control form-control-lg" required></textarea>
 						</div>
 						<div class="text-center d-grid mt-1">
-							<button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+							<button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3">
 								Submit
 								<i class="fas fa-paper-plane"></i>
 							</button>
