@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.navigation {
+    background-color: black;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: green;
+    position: sticky;
+    top: 0;
+}
+
+.create-box {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: bottom;
+    max-height: 40px; /* brings up the bottom of the create box*/
+}
+
+.totalCodedCounter {
+    border: black;
+    border-style: solid;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    background-color: black;
+    color: green;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;   
+    font-weight: bold;
+}
+
+.counter {
+    background-color: black;
+    padding: 8px;
+    font-family: 'Titillium Web', sans-serif;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+    background-color: black;
+}
+
+.days {
+    text-align: top;
+    padding-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: black;
+    color: green;
+    
+}
+
+input:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+input:active {
+    color: green;
+}
+
+.check-container {
+    margin-right: 15px;
+    color: green;
+}
+
+.submit_new {
+    padding: 11px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: black;
+    color: green;
+    -webkit-transition: all 400ms ease-in-out;
+}
+
+.submit_new:hover {
+    color: red;
+}
+
+.div-container {
+}
+
+.entry-list {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+    color: green;
+	height: 100%;
+	left: 0px;
+    
+	border-color: green;
+    background-color: white;
+    border-radius: 100px;
+    padding: 6px;
+    border-style: solid;
+    list-style-type: none;
+    padding-left: 30px;
+	margin: 6px;
+    flex: 1;
+  }
+
+.date-of-new-entries {
+	display: inline-block;
+	justify-content: flex;
+}
+
+.what-did-you-learn {
+	display: inline-block;
+	position: relative;
+	margin:0 auto;
+	background-color: rgb(55, 100, 55); 
+    top: 50%;
+    width: 30%;
+    z-index: 1;
+    color: white;
+    word-wrap: break-word;
+    word-break: break-all;
+    -webkit-transition: all 450ms ease-in-out;
+}
+
+.what-did-you-learn:focus {
+    background-color: #EEE;
+    position: relative;
+    width: 550px;
+    height: 350px;
+    color: black;
+    justify-content: flex;
+	vertical-align: text-top;
+    -webkit-transition: all 450ms ease-in-out;
+}
+
+.trash-btn {
+    display: flex;
+	float: right; /* Places an element on the left or right side of its container, allowing text and inline elements to wrap around it */
+	position: relative;
+    color: green;
+    background-color: black;
+    border-radius: 50px; /* rounds the corners of element's outer border edge */
+    border-color: black;
+    padding: 3px; /* padding is the space between an element's border and the element's content */
+	margin: 2px;
+	width: auto;
+	text-align: center;
+    -webkit-transition: all 400ms ease-in-out;
+    
+}
+
+.trash-btn:hover {
+    color: red;
+}
+
+.child .entry-list  {
+	position: absolute;
+	top: 500%;
+	left: 50%;
+}
