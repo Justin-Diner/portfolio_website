@@ -1,0 +1,31 @@
+.grid {
+    width: 400px; 
+    height: 600px;
+    position: relative;
+    font-size: 200px; 
+    text-align: center;
+    background-image: url(park.jpg);
+    background-size: cover;
+}
+
+.doodler {
+    width: 60px;
+    height: 85px;
+    background-color: transparent;
+    position: absolute;
+    background-image: url("allison.png");
+    background-position: center bottom;
+    background-size: 180%;
+    background-repeat: no-repeat;
+
+}
+
+.platform {
+    width: 85px;
+    height: 45px;
+    background-image: url(markley.png);
+    overflow: visible;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+}
