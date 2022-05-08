@@ -12,6 +12,7 @@
 
 </head>
 <body>
+	<!-- Welcome, Developer! Thanks for checking out my webpage! Take a look around at the code. It was coded in bootstrap and is a work in progress.-->
 	<!-- START THE NAVBAR SECTION -->
 <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
 	<div class="container">
@@ -55,7 +56,7 @@
 <!-- Section 1 - START OF THE INTRO SECTION - section#home.intro --> 
 <section id="home" class="intro-section">
 	<div class="container">
-		<!--  START CONTENT FOR THE INTRO-->
+		<!--  START OF CONTENT FOR THE INTRO-->
 		<div class="row align-item-center text-white">
 			<div class="col-md-6 intros">
 				<h1 class="display-2">
@@ -68,7 +69,7 @@
 						</span>
 					</button>
 			</div>
-			<!-- START THE CONTENT FOR THE VIDEO OR LINK-->
+			<!-- START OF THE CONTENT FOR THE VIDEO OR LINK-->
 			<div class="col-md-6 intros text-end">
 				<div class="video-box">
 					<img src="images/arts/Coding _Monochromatic.png" alt="video illustration" class="img-fluid">
@@ -106,23 +107,23 @@
 			<div class="col-md-6">
 				<div class="bg-white pb-4 text-start">
 					<p class="fw-light">
-						Justin has created applications in a variety of languages. From useful internet and mobile applications to vanilla Javascript video games, anything can be built. <br> <br> With a wide range of technological knowledge, anything is possible. 
+						Justin has created applications in a variety of languages. From useful internet and mobile applications to vanilla JavaScript video games, anything can be built. <br> <br> With a wide range of technological knowledge, anything is possible. 
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!--START THE CONTENT OF THE ABOUT SECTION-->
+	<!--START OF THE CONTENT OF THE ABOUT SECTION-->
 	<div class="container">
-		<!--START THE WEB DEVELOPMENT SECTION CONTENT -->
+		<!--START OF THE WEB DEVELOPMENT SECTION CONTENT -->
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about mt-4">
 				<div class="about__content">
 					<div class="icon d-block fa fa-window-maximize"></div>
 					<h3 class="display-3--title mt-1">Web Development</h3>
 						<p class="lh-lg">
-						Web applications built from the ground up. Utilizing the latest web technologies: React, Angular, Javascript, Python, C, Java, Express, NodeJS, Bootstrap v5, and Sass. Build your dream shopping, social networking, media, and blogging website.  
+						Web applications built from the ground up. Utilizing the latest web technologies: React, Angular, Javascript, Dart, Flutter, Python, C#, Java, Express, NodeJS, Bootstrap v5, and Sass. Build your dream shopping, social networking, media, and blogging website.  
 						</p>
 						<button type="button" class="rounded-pill btn-rounded border-primary">Learn More
 							<span>
@@ -137,7 +138,7 @@
 				</div>
 			</div>
 		</div>
-		<!--START THE APPLICATION DEVELOPMENT CONTENT-->
+		<!--START OF THE APPLICATION DEVELOPMENT CONTENT-->
 		<!--<div class="row">
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about mt-4">
 				<div class="about__pic">
@@ -220,12 +221,14 @@
 		<div class="col-lg-4 col-md-6">
 		  <div class="portfolio-box shadow">
 			<img src="images/portfolio/Discord-Logo.png" alt="portfolio 1 image" title="Discord-Logo" class="img-fluid">
+			<a href="https://github.com/Justin-Diner/Discord-Bot">
 			<div class="portfolio-info">
 			  <div class="caption">
 				<h4>Fully Functional JavaScript Discord Bot</h4>
 				<p>Working Bot That Teaches Code Concepts, Solves Leetcode Problems, Tells the Weather, and More</p>
 			  </div>
 			</div>
+			</a>
 		  </div>
 		</div>
 		<div class="col-lg-4 col-md-6">
@@ -339,7 +342,7 @@
 		</div>
 	</div>
 
-<!--START THE TECHNOLOGIES CONTENT-->
+<!--START OF THE TECHNOLOGIES CONTENT-->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
@@ -413,7 +416,7 @@
 		<p class="lead pt-1">What collaborators are saying!</p>
 		</div>
 
-		<!--START THE CAROUSEL CONTENT-->
+		<!--START OF THE CAROUSEL CONTENT-->
 		<div class="row align-items-center">
 			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-inner">
@@ -576,7 +579,7 @@
 			</p>
 		</div>
 
-	<!--START THE CONTACT CONTENT-->
+	<!--START OF THE CONTACT CONTENT-->
 		<div class="row text-white">
 			<div class="col-12 col-lg-6 gradient shadow p-3">
 				<div class="cta-info w-100">
@@ -596,14 +599,14 @@
 				<div class="form w-100 pb-2">
 					<h4 class="display-3--title mb-5">It Only Takes One Step</h4>
 					<form action="https://formsubmit.co/Justintocode@gmail.com" method="POST" class="row">
-						<div class="col-lg-6 col-md-6 mb-3"><input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+						<div class="col-lg-6 col-md-6 mb-3"><input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg" name="first_name">
 						</div>
-						<div class="col-lg-6 col-md-6 mb-3"><input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+						<div class="col-lg-6 col-md-6 mb-3"><input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg" name="last_name">
 						</div>
-						<div class="col-lg-12 mb-3"><input type="email" placeholder="Email address" id="inputEmail" class="shadow form-control form-control-lg" required>
+						<div class="col-lg-12 mb-3"><input type="email" placeholder="Email address" id="inputEmail" class="shadow form-control form-control-lg" name ="email" required>
 						</div>
 						<div class="col-lg-12 mb-3">
-						<textarea name="message" placeholder="Message" cols="30" rows="8" class="shadow form-control form-control-lg" required></textarea>
+						<textarea name="message" placeholder="Message" cols="30" rows="8" class="shadow form-control form-control-lg" name="message" required></textarea>
 						</div>
 						<div class="text-center d-grid mt-1">
 							<button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3">
