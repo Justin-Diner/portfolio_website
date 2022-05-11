@@ -31,15 +31,22 @@
 		left: 0;
 		opacity: 0;
 		visibility: hidden;
+		color: white;
 
 		.caption {
 			text-align: center;
-			color: white;
 			@include absoluteCenter;
 
 			h4 {
 				text-transform: uppercase;
 				display: block;
+				color: inherit;
+			}
+
+			p {
+				text-transform: uppercase;
+				display: block;
+				color: inherit;
 			}
 		}
 	}
