@@ -11420,17 +11420,20 @@ textarea.form-control-lg {
 .portfolio-box .portfolio-info .caption h4 {
   text-transform: uppercase;
   display: block;
+  color: white;
 }
 .portfolio-box:hover img {
   transform: scale(1.5);
   transition-duration: 1000ms;
   transition-property: all;
+  color: white;
 }
 .portfolio-box:hover .portfolio-info {
   opacity: 1;
   visibility: visible;
   transition-duration: 1000ms;
   transition-property: all;
+  color: white;
 }
 
 .get-started {

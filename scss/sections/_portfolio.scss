@@ -36,19 +36,6 @@
 		.caption {
 			text-align: center;
 			@include absoluteCenter;
-
-			h4 {
-				text-transform: uppercase;
-				display: block;
-				color: inherit;
-			}
-
-			p {
-				text-transform: uppercase;
-				display: block;
-				color: inherit;
-				text-decoration: none;
-			}
 		}
 	}
 	&:hover {
@@ -60,6 +47,19 @@
 			opacity: 1;
 			visibility: visible;
 			@include transitionProperty;
+
+			h4 {
+				text-transform: uppercase;
+				display: block;
+				color: white;
+			}
+
+			p {
+				text-transform: uppercase;
+				display: block;
+				color: white;
+				text-decoration: none;
+			}
 		}
 	}
 }
